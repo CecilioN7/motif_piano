@@ -7,6 +7,9 @@
 import SwiftUI
 
 struct PianoView: View {
+    // Observe the MIDIManager singleton
+    @ObservedObject var midiManager = MIDIManager.shared
+
     var body: some View {
         ZStack(alignment: .topLeading) {
             // White keys
@@ -25,22 +28,22 @@ struct PianoView: View {
         }
         .padding()
     }
-    
-    private func getOffset(for note: String) -> CGFloat {
-        let octaveIndex = Int(String(note.last!))! - 1 // Get the octave number (1 to 4) and convert to index (0 to 3)
-        let baseOffset: CGFloat = CGFloat(octaveIndex) * 110 // Each octave spans 210 points (7 white keys * 30)
 
-        switch note.prefix(note.count - 1) { // Extract note name without octave number
+    private func getOffset(for note: String) -> CGFloat {
+        let octaveIndex = Int(String(note.last!))! - 1
+        let baseOffset: CGFloat = CGFloat(octaveIndex) * 110
+
+        switch note.prefix(note.count - 1) {
         case "Db":
-            return baseOffset + 15  // Halved offset from 30
+            return baseOffset + 15
         case "Eb":
-            return baseOffset + 35  // Halved offset from 70
+            return baseOffset + 35
         case "Gb":
-            return baseOffset + 65  // Halved offset from 130
+            return baseOffset + 65
         case "Ab":
-            return baseOffset + 80  // Halved offset from 160
+            return baseOffset + 80
         case "Bb":
-            return baseOffset + 95  // Halved offset from 190
+            return baseOffset + 95
         default:
             return 0
         }

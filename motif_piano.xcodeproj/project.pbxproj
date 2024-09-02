@@ -16,6 +16,7 @@
 		E23CA1F82C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1F72C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift */; };
 		E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2042C8588820003A4F5 /* PianoView.swift */; };
 		E23CA2072C858AB80003A4F5 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2062C858AB80003A4F5 /* KeyView.swift */; };
+		E23CA20B2C85C66E0003A4F5 /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E23CA1F72C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motif_pianoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E23CA2042C8588820003A4F5 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
 		E23CA2062C858AB80003A4F5 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+		E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E23CA1E02C8586EF0003A4F5 /* Preview Content */,
 				E23CA2042C8588820003A4F5 /* PianoView.swift */,
 				E23CA2062C858AB80003A4F5 /* KeyView.swift */,
+				E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */,
 			);
 			path = motif_piano;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				E23CA1DC2C8586EE0003A4F5 /* ContentView.swift in Sources */,
 				E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */,
 				E23CA1DA2C8586EE0003A4F5 /* motif_pianoApp.swift in Sources */,
+				E23CA20B2C85C66E0003A4F5 /* MIDIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
