@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E23CA1DA2C8586EE0003A4F5 /* motif_pianoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1D92C8586EE0003A4F5 /* motif_pianoApp.swift */; };
+		E23CA1DC2C8586EE0003A4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1DB2C8586EE0003A4F5 /* ContentView.swift */; };
+		E23CA1DE2C8586EF0003A4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23CA1DD2C8586EF0003A4F5 /* Assets.xcassets */; };
+		E23CA1E22C8586EF0003A4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E23CA1E12C8586EF0003A4F5 /* Preview Assets.xcassets */; };
+		E23CA1EC2C8586EF0003A4F5 /* motif_pianoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1EB2C8586EF0003A4F5 /* motif_pianoTests.swift */; };
+		E23CA1F62C8586EF0003A4F5 /* motif_pianoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1F52C8586EF0003A4F5 /* motif_pianoUITests.swift */; };
+		E23CA1F82C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA1F72C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift */; };
+		E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2042C8588820003A4F5 /* PianoView.swift */; };
+		E23CA2072C858AB80003A4F5 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2062C858AB80003A4F5 /* KeyView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E23CA1E82C8586EF0003A4F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23CA1CE2C8586EE0003A4F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23CA1D52C8586EE0003A4F5;
+			remoteInfo = motif_piano;
+		};
+		E23CA1F22C8586EF0003A4F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E23CA1CE2C8586EE0003A4F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23CA1D52C8586EE0003A4F5;
+			remoteInfo = motif_piano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E23CA1D62C8586EE0003A4F5 /* motif_piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motif_piano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23CA1D92C8586EE0003A4F5 /* motif_pianoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motif_pianoApp.swift; sourceTree = "<group>"; };
+		E23CA1DB2C8586EE0003A4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E23CA1DD2C8586EF0003A4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E23CA1DF2C8586EF0003A4F5 /* motif_piano.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = motif_piano.entitlements; sourceTree = "<group>"; };
+		E23CA1E12C8586EF0003A4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E23CA1E72C8586EF0003A4F5 /* motif_pianoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motif_pianoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23CA1EB2C8586EF0003A4F5 /* motif_pianoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motif_pianoTests.swift; sourceTree = "<group>"; };
+		E23CA1F12C8586EF0003A4F5 /* motif_pianoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motif_pianoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23CA1F52C8586EF0003A4F5 /* motif_pianoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motif_pianoUITests.swift; sourceTree = "<group>"; };
+		E23CA1F72C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motif_pianoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E23CA2042C8588820003A4F5 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
+		E23CA2062C858AB80003A4F5 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E23CA1D32C8586EE0003A4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1E42C8586EF0003A4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1EE2C8586EF0003A4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E23CA1CD2C8586EE0003A4F5 = {
+			isa = PBXGroup;
+			children = (
+				E23CA1D82C8586EE0003A4F5 /* motif_piano */,
+				E23CA1EA2C8586EF0003A4F5 /* motif_pianoTests */,
+				E23CA1F42C8586EF0003A4F5 /* motif_pianoUITests */,
+				E23CA1D72C8586EE0003A4F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E23CA1D72C8586EE0003A4F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E23CA1D62C8586EE0003A4F5 /* motif_piano.app */,
+				E23CA1E72C8586EF0003A4F5 /* motif_pianoTests.xctest */,
+				E23CA1F12C8586EF0003A4F5 /* motif_pianoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E23CA1D82C8586EE0003A4F5 /* motif_piano */ = {
+			isa = PBXGroup;
+			children = (
+				E23CA1D92C8586EE0003A4F5 /* motif_pianoApp.swift */,
+				E23CA1DB2C8586EE0003A4F5 /* ContentView.swift */,
+				E23CA1DD2C8586EF0003A4F5 /* Assets.xcassets */,
+				E23CA1DF2C8586EF0003A4F5 /* motif_piano.entitlements */,
+				E23CA1E02C8586EF0003A4F5 /* Preview Content */,
+				E23CA2042C8588820003A4F5 /* PianoView.swift */,
+				E23CA2062C858AB80003A4F5 /* KeyView.swift */,
+			);
+			path = motif_piano;
+			sourceTree = "<group>";
+		};
+		E23CA1E02C8586EF0003A4F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E23CA1E12C8586EF0003A4F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E23CA1EA2C8586EF0003A4F5 /* motif_pianoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E23CA1EB2C8586EF0003A4F5 /* motif_pianoTests.swift */,
+			);
+			path = motif_pianoTests;
+			sourceTree = "<group>";
+		};
+		E23CA1F42C8586EF0003A4F5 /* motif_pianoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E23CA1F52C8586EF0003A4F5 /* motif_pianoUITests.swift */,
+				E23CA1F72C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift */,
+			);
+			path = motif_pianoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E23CA1D52C8586EE0003A4F5 /* motif_piano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23CA1FB2C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_piano" */;
+			buildPhases = (
+				E23CA1D22C8586EE0003A4F5 /* Sources */,
+				E23CA1D32C8586EE0003A4F5 /* Frameworks */,
+				E23CA1D42C8586EE0003A4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = motif_piano;
+			productName = motif_piano;
+			productReference = E23CA1D62C8586EE0003A4F5 /* motif_piano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E23CA1E62C8586EF0003A4F5 /* motif_pianoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23CA1FE2C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_pianoTests" */;
+			buildPhases = (
+				E23CA1E32C8586EF0003A4F5 /* Sources */,
+				E23CA1E42C8586EF0003A4F5 /* Frameworks */,
+				E23CA1E52C8586EF0003A4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23CA1E92C8586EF0003A4F5 /* PBXTargetDependency */,
+			);
+			name = motif_pianoTests;
+			productName = motif_pianoTests;
+			productReference = E23CA1E72C8586EF0003A4F5 /* motif_pianoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E23CA1F02C8586EF0003A4F5 /* motif_pianoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E23CA2012C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_pianoUITests" */;
+			buildPhases = (
+				E23CA1ED2C8586EF0003A4F5 /* Sources */,
+				E23CA1EE2C8586EF0003A4F5 /* Frameworks */,
+				E23CA1EF2C8586EF0003A4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23CA1F32C8586EF0003A4F5 /* PBXTargetDependency */,
+			);
+			name = motif_pianoUITests;
+			productName = motif_pianoUITests;
+			productReference = E23CA1F12C8586EF0003A4F5 /* motif_pianoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E23CA1CE2C8586EE0003A4F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E23CA1D52C8586EE0003A4F5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					E23CA1E62C8586EF0003A4F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E23CA1D52C8586EE0003A4F5;
+					};
+					E23CA1F02C8586EF0003A4F5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = E23CA1D52C8586EE0003A4F5;
+					};
+				};
+			};
+			buildConfigurationList = E23CA1D12C8586EE0003A4F5 /* Build configuration list for PBXProject "motif_piano" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E23CA1CD2C8586EE0003A4F5;
+			productRefGroup = E23CA1D72C8586EE0003A4F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E23CA1D52C8586EE0003A4F5 /* motif_piano */,
+				E23CA1E62C8586EF0003A4F5 /* motif_pianoTests */,
+				E23CA1F02C8586EF0003A4F5 /* motif_pianoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E23CA1D42C8586EE0003A4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23CA1E22C8586EF0003A4F5 /* Preview Assets.xcassets in Resources */,
+				E23CA1DE2C8586EF0003A4F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1E52C8586EF0003A4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1EF2C8586EF0003A4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E23CA1D22C8586EE0003A4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23CA2072C858AB80003A4F5 /* KeyView.swift in Sources */,
+				E23CA1DC2C8586EE0003A4F5 /* ContentView.swift in Sources */,
+				E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */,
+				E23CA1DA2C8586EE0003A4F5 /* motif_pianoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1E32C8586EF0003A4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23CA1EC2C8586EF0003A4F5 /* motif_pianoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23CA1ED2C8586EF0003A4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23CA1F82C8586EF0003A4F5 /* motif_pianoUITestsLaunchTests.swift in Sources */,
+				E23CA1F62C8586EF0003A4F5 /* motif_pianoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E23CA1E92C8586EF0003A4F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23CA1D52C8586EE0003A4F5 /* motif_piano */;
+			targetProxy = E23CA1E82C8586EF0003A4F5 /* PBXContainerItemProxy */;
+		};
+		E23CA1F32C8586EF0003A4F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23CA1D52C8586EE0003A4F5 /* motif_piano */;
+			targetProxy = E23CA1F22C8586EF0003A4F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E23CA1F92C8586EF0003A4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E23CA1FA2C8586EF0003A4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E23CA1FC2C8586EF0003A4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = motif_piano/motif_piano.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motif_piano/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PF2WCAJ54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-piano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E23CA1FD2C8586EF0003A4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = motif_piano/motif_piano.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"motif_piano/Preview Content\"";
+				DEVELOPMENT_TEAM = 9PF2WCAJ54;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-piano";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E23CA1FF2C8586EF0003A4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-pianoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motif_piano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motif_piano";
+			};
+			name = Debug;
+		};
+		E23CA2002C8586EF0003A4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-pianoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/motif_piano.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/motif_piano";
+			};
+			name = Release;
+		};
+		E23CA2022C8586EF0003A4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-pianoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motif_piano;
+			};
+			name = Debug;
+		};
+		E23CA2032C8586EF0003A4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cecilionavarro.motif-pianoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = motif_piano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E23CA1D12C8586EE0003A4F5 /* Build configuration list for PBXProject "motif_piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23CA1F92C8586EF0003A4F5 /* Debug */,
+				E23CA1FA2C8586EF0003A4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23CA1FB2C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_piano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23CA1FC2C8586EF0003A4F5 /* Debug */,
+				E23CA1FD2C8586EF0003A4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23CA1FE2C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_pianoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23CA1FF2C8586EF0003A4F5 /* Debug */,
+				E23CA2002C8586EF0003A4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E23CA2012C8586EF0003A4F5 /* Build configuration list for PBXNativeTarget "motif_pianoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23CA2022C8586EF0003A4F5 /* Debug */,
+				E23CA2032C8586EF0003A4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E23CA1CE2C8586EE0003A4F5 /* Project object */;
+}
