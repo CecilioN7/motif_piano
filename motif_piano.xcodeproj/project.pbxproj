@@ -17,6 +17,8 @@
 		E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2042C8588820003A4F5 /* PianoView.swift */; };
 		E23CA2072C858AB80003A4F5 /* KeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2062C858AB80003A4F5 /* KeyView.swift */; };
 		E23CA20B2C85C66E0003A4F5 /* MIDIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */; };
+		E23CA2502C85F6DA0003A4F5 /* ChordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA24F2C85F6DA0003A4F5 /* ChordView.swift */; };
+		E23CA2542C85FF9C0003A4F5 /* ChordRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23CA2532C85FF9C0003A4F5 /* ChordRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E23CA2042C8588820003A4F5 /* PianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
 		E23CA2062C858AB80003A4F5 /* KeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyView.swift; sourceTree = "<group>"; };
 		E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIDIManager.swift; sourceTree = "<group>"; };
+		E23CA24F2C85F6DA0003A4F5 /* ChordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordView.swift; sourceTree = "<group>"; };
+		E23CA2532C85FF9C0003A4F5 /* ChordRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChordRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				E23CA2042C8588820003A4F5 /* PianoView.swift */,
 				E23CA2062C858AB80003A4F5 /* KeyView.swift */,
 				E23CA20A2C85C66E0003A4F5 /* MIDIManager.swift */,
+				E23CA24F2C85F6DA0003A4F5 /* ChordView.swift */,
+				E23CA2532C85FF9C0003A4F5 /* ChordRecognizer.swift */,
 			);
 			path = motif_piano;
 			sourceTree = "<group>";
@@ -269,9 +275,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E23CA2072C858AB80003A4F5 /* KeyView.swift in Sources */,
+				E23CA2502C85F6DA0003A4F5 /* ChordView.swift in Sources */,
 				E23CA1DC2C8586EE0003A4F5 /* ContentView.swift in Sources */,
 				E23CA2052C8588820003A4F5 /* PianoView.swift in Sources */,
 				E23CA1DA2C8586EE0003A4F5 /* motif_pianoApp.swift in Sources */,
+				E23CA2542C85FF9C0003A4F5 /* ChordRecognizer.swift in Sources */,
 				E23CA20B2C85C66E0003A4F5 /* MIDIManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

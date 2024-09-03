@@ -35,17 +35,17 @@ struct PianoView: View {
 
         switch note.prefix(note.count - 1) {
         case "Db":
-            return baseOffset + 15 + 40  // Offset + 30
+            return baseOffset + 15 + 40  // Offset + 40
         case "Eb":
-            return baseOffset + 35 + 40  // Offset + 30
+            return baseOffset + 35 + 40  // Offset + 40
         case "Gb":
-            return baseOffset + 65 + 40  // Offset + 30
+            return baseOffset + 65 + 40  // Offset + 40
         case "Ab":
-            return baseOffset + 80 + 40  // Offset + 30
+            return baseOffset + 80 + 40  // Offset + 40
         case "Bb":
-            return baseOffset + 95 + 40  // Offset + 30
+            return baseOffset + 95 + 40  // Offset + 40
         default:
-            return 30  // Adding 30 to the default offset
+            return 40  // Adding 30 to the default offset
         }
     }
 
