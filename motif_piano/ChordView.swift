@@ -33,7 +33,7 @@ struct ChordView: View {
             }
             // The view is fixed in size even when no chord is detected
         }
-        .frame(height: 100) // Set the fixed size for the view
+        .frame(height: 0) // Set the fixed size for the view
         .padding()
         .onReceive(midiManager.$noteStates) { _ in
             // Trigger view update whenever noteStates change

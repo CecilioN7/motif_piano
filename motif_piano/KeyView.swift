@@ -26,13 +26,13 @@ struct KeyView: View {
                 .frame(width: isBlack ? 20 : 30, height: isBlack ? 100 : 150)
                 .border(Color.black, width: 0.5)
             
-            if !isBlack {
-                Text(note.dropLast()) // Remove the octave number for display
-                    .foregroundColor(.black)
-                    .bold()
-                    .font(.system(size: 10))
-                    .padding(.top, 100)
-            }
+//            if !isBlack {
+//                Text(note.dropLast()) // Remove the octave number for display
+//                    .foregroundColor(.black)
+//                    .bold()
+//                    .font(.system(size: 10))
+//                    .padding(.top, 100)
+//            }
         }
         .zIndex(isBlack ? 1 : 0)
     }

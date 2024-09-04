@@ -1,3 +1,10 @@
+//
+//  ChordRecognizer.swift
+//  motif_piano
+//
+//  Created by Cecilio Samuel Navarro on 9/1/24.
+//
+
 import Foundation
 
 class ChordRecognizer {
